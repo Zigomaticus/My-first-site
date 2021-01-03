@@ -195,7 +195,7 @@ h2 {
     font-style: italic;
     font-weight: 300;
     color: #999;
-    font-family: 'Courgette', cursive;
+    font-family: 'Karla', sans-serif;
 }
 
 .reviews__author {
@@ -454,6 +454,8 @@ h3.title {
     text-decoration: none;
 }
 
+/* Media */ 
+
 @media (max-width: 1230px) {
     .about {
         margin: 70px 0;
@@ -665,5 +667,46 @@ h3.title {
     .intro {
         min-height: 450px;
     }
-}
 
+    .about__item {
+        margin-top: 30px;
+        min-height: 110px;
+        padding-left: 155px;
+    }
+
+    .about__photo {
+        width: 140px;
+        height: 140px;
+        margin-right: none;
+    }
+
+    .about__text {
+        font-size: 16px;
+    }
+
+    .intro {
+
+        height: 540px;
+        padding-top: none;
+        margin-bottom: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .reviews {
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
+
+    .reviews__photo {
+        width: 120px;
+        height: 120px;
+    }
+
+    .reviews__text {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+}
