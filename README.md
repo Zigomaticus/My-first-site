@@ -2,4 +2,4 @@
 
 Адаптации под мобилку нет, смотреть с компа.
 
-Смотреть http://wdphoto.ru
+Смотреть https://zigomaticus.github.io/wdphoto/
